@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="thankyou.css">
+    <style>
+
+        @font-face {
+            font-family: 'notosans';
+            src: url(NotoSansKannada-VariableFont_wdth\,wght.ttf);
+        }
+        #div1
+        {   
+            height: 290px;
+            width: 350px;
+            margin-top: 120px;
+        }
+
+        #mate
+        {
+            display: inline-block;
+            font-size: 22px;
+            font-family: 'notosans';
+            height: 100px;
+            width: 420px;
+            font-weight: 500;
+        }
+        
+        #btt
+        {
+            color: white;
+            font-weight: 600;
+            border: none;
+            border-radius: 12px;
+            background-color: #FF5757;
+            margin-top: 15px;
+            padding: 6px;
+            padding-top: 13px;
+            padding-bottom: 9px;
+            padding-right: 20px;
+            padding-left: 20px;
+            cursor: pointer;
+            font-size: 17px;
+            font-family: 'notosans';
+        }
+
+        #btt:hover
+        {
+            background-color: #fe6f6f;
+        }
+
+        @media (max-width:450px)
+        {
+            #div1
+            {   
+                height: 72.5vw;
+                width: 87.5vw;
+                margin-top: 30vw;
+                margin-left: 6.2vw;
+            }
+
+            #mate
+            {
+                display: inline-block;
+                font-size: 5.5vw;
+                font-family: 'notosans';
+                height: 25vw;
+                width: 105vw;
+                font-weight: 500;
+                margin-left: -10px;
+            }
+        
+            #btt
+            {
+                color: white;
+                font-weight: 600;
+                border: none;
+                border-radius: 12px;
+                background-color: #FF5757;
+                margin-top: 3.75vw;
+                padding: 1.5vw;
+                padding-top: 3.25vw;
+                padding-bottom: 2.25vw;
+                padding-right: 7vw;
+                padding-left: 7vw;
+                cursor: pointer;
+                font-size: 4.25vw;
+                font-family: 'notosans';
+            }
+        }       
+      
+    </style>
+    <title>Document</title>
+</head>
+<body style="user-select: none;">
+    <div style="text-align: center;">
+        <video autoplay loop muted plays-inline id="div1">
+            <source src="img/Animation - 1711471418051.mp4" type="video/mp4" id="vid">
+        </video>
+    </div>
+
+    <div style="text-align: center;">
+        <p id="mate">
+            Thank you!! <%=name%> <br>for contacting us. Your response has been recorded.
+        </p>
+
+    </div>  
+    
+    <div style="text-align: center;">
+        <a href="/sps" id="btt">Return to home page.</a>
+        <button</button>
+    </div>
+    
+</body>
+</html>
